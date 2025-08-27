@@ -1,0 +1,226 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* =======================  nav Bar  ======================= */
+
+nav
+{
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 600px;
+    padding: 20px;
+    height: 27px;
+}
+
+nav>ul
+{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+nav>ul>li
+{
+    padding: 20px;
+    color: rgb(179, 179, 179);
+    transition: all 0.5s;
+}
+
+nav>ul>li>a
+{
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+}
+
+nav>ul>li:hover
+{
+    color: black;
+}
+
+.on
+{
+color: black;
+}
+
+.on::before
+{
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -16px;
+    width: 70px;
+    height: 3px;
+    background-color: rgb(148, 112, 35);
+    border-radius: 5px;
+}
+
+
+
+/* =======================  welcome  ======================= */
+
+.welcome_background
+{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    background-position: center; 
+    height: 900px;
+}
+
+.welcome
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    text-align: center;
+    color: white;
+}
+
+.welcome>p
+{
+    font-size: x-large;
+}
+
+.welcome>h1
+{
+    font-size: 70px;
+}
+
+.welcome>div>button
+{
+    border-radius: 5px;
+    padding: 18px;
+    padding-left: 23px;
+    padding-right: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.welcome>div>.Learn
+{
+    border: solid 2px rgb(153, 130, 100);
+    background-color: rgb(153, 130, 100);
+}
+
+.welcome>div>.Contact
+{
+    border: solid 2px white;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.welcome>div>button:hover
+{
+    color: black;
+    background-color: white;
+    border: solid 2px white;
+}
+
+.element
+{
+    height: 50px; 
+    width: 30px; 
+    border-radius: 20px;
+    border: solid white 1px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: end;  
+    margin-top: 120px;
+}
+
+.element>div
+{
+    width: 10px; 
+    height: 10px; 
+    border-radius: 5px; 
+    background-color: white; 
+    margin-bottom: 10px;
+    animation-name: element;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes element 
+{
+    0%
+    {
+        opacity: 0;
+        transform: translateY(0px);
+    }
+
+    50%
+    {
+        opacity: 1;
+    }
+
+    100%
+    {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+
+/* =======================  who_we_are  ======================= */
+
+.who_we_are
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    gap: 80px;
+}
+
+.who_we_are>hgroup
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.who_we_are>hgroup>h2
+{
+    font-size: 30px;
+    color: rgb(65, 65, 65);
+}
+
+.who_we_are>hgroup>p
+{
+    font-size: 17px;
+    color: gray;
+}
+
+.who_we_are>hgroup>div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 17px;
+    color: gray;
+}
+
+.who_we_are>hgroup> p>i
+{
+    color: rgb(117, 97, 70);
+    border: solid gray 1px;
+    padding: 10px;
+    border-radius: 25px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+/* =======================  Our Location  ======================= */
+
+

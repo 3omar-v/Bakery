@@ -1,0 +1,89 @@
+/* =======================  phones  ======================= */
+
+@media (max-width: 600px) 
+{
+
+/* ======== nav ======== */
+
+    nav
+    {
+        gap: 30px;
+        padding: 10px;
+        justify-content: space-evenly;
+    }
+
+    nav>img
+    {
+        width: 60px;
+    }
+
+    nav>ul>li
+    {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .on::before
+{
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 40px;
+    left: -8px;
+    border-radius: 5px;
+}
+
+/* ======== welcome ======== */
+
+    .welcome>p
+    {
+        font-size: large;
+    }
+
+    .welcome>h1
+    {
+        font-size: 50px;
+    }
+
+    .welcome>div>button
+    {
+        padding: 12px;
+        padding-inline: 20px;
+        font-size: 8px;
+        font-weight: bold;
+    }
+
+    .element
+    {
+        height: 35px; 
+        width: 20px; 
+    }
+
+    .element>div
+    {
+        width: 7px; 
+        height: 7px; 
+        border-radius: 5px; 
+        background-color: white; 
+        margin-bottom: 2px;
+    }
+
+/* ======== who_we_are ======== */
+
+.who_we_are
+{
+    margin-block: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.who_we_are>img
+{
+    width: 300px;
+}
+
+
+
+
+}
