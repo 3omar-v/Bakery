@@ -8,7 +8,8 @@
     nav
     {
         gap: 30px;
-        padding: 10px;
+        padding-block: 10px;
+        padding-inline: 0px;
         justify-content: space-evenly;
     }
 
