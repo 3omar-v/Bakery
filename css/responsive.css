@@ -48,8 +48,8 @@
 
     .welcome>div>button
     {
-        padding: 12px;
-        padding-inline: 20px;
+        padding: 15px;
+        padding-inline: 35px;
         font-size: 8px;
         font-weight: bold;
     }
@@ -76,7 +76,7 @@
     margin-block: 150px;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 25px;
 }
 
 .who_we_are>img
@@ -84,7 +84,10 @@
     width: 300px;
 }
 
-
+.who_we_are>hgroup>p
+{
+    font-size: 14px;
+}
 
 
 }

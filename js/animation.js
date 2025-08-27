@@ -26,9 +26,9 @@ gsap.from(".welcome>h1", { opacity: 0, y: -100, duration: 1 });
 
 //====> buttons
 
-gsap.from(".Learn", { opacity: 0, x: "-600%", duration: 0.5 });
+gsap.from(".Learn", { opacity: 0, x: "-500%", duration: 0.5 });
 
-gsap.from(".Contact", { opacity: 0, x: "600%", duration: 0.5 });
+gsap.from(".Contact", { opacity: 0, x: "500%", duration: 0.5 });
 
 //====> element
 
