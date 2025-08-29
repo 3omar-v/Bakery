@@ -45,7 +45,7 @@ gsap.from(".who_we_are>img",
     scrollTrigger: 
     {
         trigger: ".who_we_are",
-        start: "top 60%",     
+        start: "top 80%",     
         toggleActions: "play none none none"
     },
     duration: 0.8,        
@@ -60,7 +60,7 @@ gsap.from(".who_we_are>hgroup>*",
     scrollTrigger: 
     {
         trigger: ".who_we_are",
-        start: "top 60%",     
+        start: "top 80%",     
         toggleActions: "play none none none"
     },
     duration: 0.8,        
@@ -80,7 +80,7 @@ gsap.from(".our_location>article>*",
         scrollTrigger: 
         {
             trigger: ".our_location",
-            start: "top 60%",     
+            start: "top 80%",     
             toggleActions: "play none none none"
         },
         duration: 0.8,        
@@ -96,7 +96,7 @@ gsap.from(".our_location>img",
         scrollTrigger: 
         {
             trigger: ".our_location",
-            start: "top 60%",     
+            start: "top 80%",     
             toggleActions: "play none none none"
         },
         duration: 0.8,        
@@ -115,7 +115,7 @@ gsap.from(".Our_Baking>.txt",
         scrollTrigger: 
         {
             trigger: ".Our_Baking>.txt",
-            start: "top 60%",     
+            start: "top 80%",     
             toggleActions: "play none none none"
         },
         duration: 0.8,        
@@ -131,7 +131,7 @@ gsap.from(".Our_Baking>.cards>div",
         scrollTrigger: 
         {
             trigger: ".Our_Baking>.cards>div",
-            start: "top 100%",     
+            start: "top 80%",     
             toggleActions: "play none none none"
         },
         duration: 0.8,        
@@ -150,8 +150,8 @@ gsap.from(".Contact_Information>div>*",
     {
         scrollTrigger: 
         {
-            trigger: ".Our_Baking>.cards>div",
-            start: "top 60%",     
+            trigger: ".Contact_Information>div>*",
+            start: "top 80%",     
             toggleActions: "play none none none"
         },
         duration: 0.8,        
@@ -166,8 +166,8 @@ gsap.from(".Contact_Information>iframe",
     {
         scrollTrigger: 
         {
-            trigger: ".Our_Baking>.cards>div",
-            start: "top 60%",     
+            trigger: ".Contact_Information>iframe",
+            start: "top 80%",     
             toggleActions: "play none none none"
         },
         duration: 0.8,        
@@ -181,8 +181,8 @@ gsap.from(".Contact_Information>iframe",
         {
             scrollTrigger: 
             {
-                trigger: ".Our_Baking>.cards>div",
-                start: "top 60%",     
+                trigger: ".lists>*>*",
+                start: "top 80%",     
                 toggleActions: "play none none none"
             },
             duration: 0.8,        
@@ -197,8 +197,8 @@ gsap.from(".last>*",
     {
         scrollTrigger: 
         {
-            trigger: ".Our_Baking>.cards>div",
-            start: "top 60%",     
+            trigger: ".last>*",
+            start: "top 80%",     
             toggleActions: "play none none none"
         },
         duration: 0.8,        
