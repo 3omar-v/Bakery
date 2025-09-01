@@ -487,3 +487,208 @@ color: black;
     background-color: rgb(20, 20, 20);
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================== responsive ========================================== */
+
+
+/* =======================  phones  ======================= */
+
+@media (max-width: 600px) 
+{
+
+/* ======== nav ======== */
+
+    nav
+    {
+        gap: 30px;
+        padding-block: 10px;
+        padding-inline: 0px;
+        justify-content: space-evenly;
+    }
+
+    nav>img
+    {
+        width: 60px;
+    }
+
+    nav>ul>li
+    {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .on::before
+{
+    content: "";
+    position: absolute;
+    top: -10px;
+    width: 40px;
+    left: -8px;
+    border-radius: 5px;
+}
+
+/* ======== welcome ======== */
+
+    .welcome>p
+    {
+        font-size: large;
+        margin-inline: 5px;
+    }
+
+    .welcome>h1
+    {
+        font-size: 50px;
+    }
+
+    .welcome>div>button
+    {
+        padding: 15px;
+        padding-inline: 35px;
+        font-size: 11px;
+        font-weight: bold;
+    }
+
+    .element
+    {
+        height: 35px; 
+        width: 20px; 
+    }
+
+    .element>div
+    {
+        width: 7px; 
+        height: 7px; 
+        border-radius: 5px; 
+        background-color: white; 
+        margin-bottom: 2px;
+    }
+
+/* ======== who_we_are ======== */
+
+.who_we_are
+{
+    margin-block: 150px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.who_we_are>img
+{
+    width: 300px;
+}
+
+.who_we_are>hgroup>p
+{
+    font-size: 14px;
+}
+
+
+
+/* ======== our_location ======== */
+
+.our_location
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.our_location>img
+{
+    width: 300px;
+}
+
+.our_location>article
+{
+    width: 100%;
+}
+.our_location>article>p
+{
+    font-size: 14px;
+}
+
+
+
+/* ======== our_Baking======== */
+
+.Our_Baking
+{
+    text-align: center;
+    height: 1800px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Our_Baking>.cards
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+/* ======== Contact Information ======== */
+
+.Contact_Information
+{
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+}
+
+.Contact_Information>iframe
+{
+    width: 350px;
+    height: 550px;
+}
+
+.Contact_Information>div
+{
+    width: 350px;
+}
+
+.Contact_Information>div>p
+{
+    font-size: 14px;
+}
+
+
+
+/* ======== footer ====> lists ======== */
+
+.lists
+{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 1300px;
+}
+
+
+/* ======== footer ====> end ======== */
+
+.last>img
+{
+    width: 200px;
+}
+
+}
+
+
+
